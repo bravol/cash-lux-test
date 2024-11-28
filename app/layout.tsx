@@ -28,7 +28,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       default: parsedSettings.title,
     },
     icons: parsedSettings.favicon,
-    description: "E-commerce marketplace",
+    description: "Fashion marketplace",
     openGraph: {
       images: [
         {
@@ -38,7 +38,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
       ],
       title: parsedSettings.title,
-      description: "E-commerce marketplace",
+      description: "Fashion marketplace",
       siteName: parsedSettings.title,
     },
   };
